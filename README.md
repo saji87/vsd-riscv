@@ -7,6 +7,17 @@ RISC V Internship
     4. Refer to this C based lab video and RISC-V based lab video and perform the same steps on your machine <br />
     5. Capture lab snapshots (with the current date/time visible), and upload them to your GitHub repository along with brief details. <br />
 
+  TASK 2 <br />
+    1. Fill up the form - https://forms.gle/wyXTTNccQanhPuBa8 <br /> 
+    2. Review the provided SPIKE Simulation video: Video Link <br />
+    3. Run the simulation and observe the performance under the -O1 and -Ofast compiler optimization flags. <br />
+    4. Write a simple C program (any basic application). <br />
+    5. Compile the C program using RISC-V GCC/SPIKE with the above optimization options. <br />
+    6. Generate and collect the RISC-V object dump for both -O1 and -Ofast. <br />
+    7. Upload snapshots of the following to your GitHub repository: <br />
+        a. The compiled C code. <br />
+        b. The RISC-V object dump for each optimization level (-O1 and -Ofast). <br />
+
 ![1](https://github.com/user-attachments/assets/7fb467d8-8ba4-4c11-add4-a25e1f8b2b99)
 
 **Normal O1 Compilation**
@@ -19,20 +30,6 @@ RISC V Internship
 
 ![5](https://github.com/user-attachments/assets/47cecfc8-0e38-4bfd-9a87-855597261789)
 ![5_calc](https://github.com/user-attachments/assets/b27aa13d-c6ec-4c68-8b5b-b68c09dd92b6)
-
-
-
-  TASK 2 <br />
-    1. Fill up the form - https://forms.gle/wyXTTNccQanhPuBa8 <br /> 
-    2. Review the provided SPIKE Simulation video: Video Link <br />
-    3. Run the simulation and observe the performance under the -O1 and -Ofast compiler optimization flags. <br />
-    4. Write a simple C program (any basic application). <br />
-    5. Compile the C program using RISC-V GCC/SPIKE with the above optimization options. <br />
-    6. Generate and collect the RISC-V object dump for both -O1 and -Ofast. <br />
-    7. Upload snapshots of the following to your GitHub repository: <br />
-        a. The compiled C code. <br />
-        b. The RISC-V object dump for each optimization level (-O1 and -Ofast). <br />
-
 
   TASK 3  <br />
     1. Review the RISC-V software documentation (link) to understand the R, I, S, B, U, and J instruction types. <br />
