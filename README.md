@@ -7,8 +7,13 @@ RISC V Internship
     4. Refer to this C based lab video and RISC-V based lab video and perform the same steps on your machine <br />
     5. Capture lab snapshots (with the current date/time visible), and upload them to your GitHub repository along with brief details. <br />
 
+ ![plot](./Lab/1.png)
+
+
+
+
   TASK 2 <br />
-    1. Fill up the form - https://forms.gle/wyXTTNccQanhPuBa8 <br />
+    1. Fill up the form - https://forms.gle/wyXTTNccQanhPuBa8 <br /> 
     2. Review the provided SPIKE Simulation video: Video Link <br />
     3. Run the simulation and observe the performance under the -O1 and -Ofast compiler optimization flags. <br />
     4. Write a simple C program (any basic application). <br />
