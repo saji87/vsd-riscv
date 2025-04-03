@@ -1,13 +1,13 @@
-RISC V Internship 
+# RISC V Internship 
 
-  TASK 1 <br />
+  ## TASK 1 <br />
     1. Create a GitHub repository named "vsd-riscv" <br />
     2. Watch the video for to understand the program flow <br />
     3. Install the RISC-V toolchain using the VDI link mentioned in the attached PDF  <br />
     4. Refer to this C based lab video and RISC-V based lab video and perform the same steps on your machine <br />
     5. Capture lab snapshots (with the current date/time visible), and upload them to your GitHub repository along with brief details. <br />
 
-  TASK 2 <br />
+  ## TASK 2 <br />
     1. Fill up the form - https://forms.gle/wyXTTNccQanhPuBa8 <br /> 
     2. Review the provided SPIKE Simulation video: Video Link <br />
     3. Run the simulation and observe the performance under the -O1 and -Ofast compiler optimization flags. <br />
@@ -31,9 +31,32 @@ RISC V Internship
 ![5](https://github.com/user-attachments/assets/47cecfc8-0e38-4bfd-9a87-855597261789)
 ![5_calc](https://github.com/user-attachments/assets/b27aa13d-c6ec-4c68-8b5b-b68c09dd92b6)
 
-  TASK 3  <br />
+  ## TASK 3  <br />
     1. Review the RISC-V software documentation (link) to understand the R, I, S, B, U, and J instruction types. <br />
     2. Check out this sample GitHub repository for a visual guide on decoding RISC-V instructions: Sample Repo. <br />
     3. From the riscv-objdump of your application code, identify 15 unique RISC-V instructions. <br />
     4. For those 15 instructions, determine the exact 32-bit instruction code in their respective instruction type formats. <br />
     5. Upload the 32-bit instruction patterns to your GitHub repository. <br />
+
+ ## Task 4: Functional Simulation of RISC-V Core 
+
+    Objective: Perform a functional simulation of the given RISC-V Core Verilog netlist and testbench. 
+    Steps: 
+      1. Download Files: 
+        Get the Verilog netlist from RISC-V Core Verilog Netlist. 
+        Get the testbench from Testbench for RISC-V Core. 
+      2. Set Up Simulation Environment: 
+        Ensure you have a suitable simulation tool (e.g., iverilog, gtkwave). 
+        Load the Verilog netlist and testbench into the simulator. 
+      3. Run Functional Simulation: 
+        Simulate the design using the testbench.
+        Check the functional correctness of the core by observing the output signals.
+      4. Capture Waveforms:
+        Generate and save waveform snapshots for the executed commands during the simulation.
+      5. Upload Results to GitHub:
+        Update your GitHub repository.
+        Upload the waveform snapshots and simulation results to your GitHub.
+        Include a brief description of your work in the repository.
+    Reference Resources:
+      Official GitHub repository: RISC-V Core GitHub Repo.
+      Use the reference document for additional guidance.
