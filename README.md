@@ -7,8 +7,18 @@ RISC V Internship
     4. Refer to this C based lab video and RISC-V based lab video and perform the same steps on your machine <br />
     5. Capture lab snapshots (with the current date/time visible), and upload them to your GitHub repository along with brief details. <br />
 
- ![plot](./Lab/1.png)
+![1](https://github.com/user-attachments/assets/7fb467d8-8ba4-4c11-add4-a25e1f8b2b99)
 
+**Normal O1 Compilation**
+
+![2](https://github.com/user-attachments/assets/1b3511e4-5e8f-4479-9fbd-e6ec9d069236)
+![3](https://github.com/user-attachments/assets/00fab5d7-a080-43b4-8d58-0f25d0fbb328)
+
+**OFast Compilation**
+
+
+![5](https://github.com/user-attachments/assets/47cecfc8-0e38-4bfd-9a87-855597261789)
+![5_calc](https://github.com/user-attachments/assets/b27aa13d-c6ec-4c68-8b5b-b68c09dd92b6)
 
 
 
@@ -22,6 +32,7 @@ RISC V Internship
     7. Upload snapshots of the following to your GitHub repository: <br />
         a. The compiled C code. <br />
         b. The RISC-V object dump for each optimization level (-O1 and -Ofast). <br />
+
 
   TASK 3  <br />
     1. Review the RISC-V software documentation (link) to understand the R, I, S, B, U, and J instruction types. <br />
