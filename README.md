@@ -37,6 +37,7 @@
     3. From the riscv-objdump of your application code, identify 15 unique RISC-V instructions. 
     4. For those 15 instructions, determine the exact 32-bit instruction code in their respective instruction type formats. 
     5. Upload the 32-bit instruction patterns to your GitHub repository. 
+    
 Instruction 1   : addi sp, sp, -16
     OPCODE      :
     Registers   : sp = 
@@ -44,36 +45,48 @@ Instruction 1   : addi sp, sp, -16
     ![Screenshot 2025-04-05 223656](https://github.com/user-attachments/assets/0c616b86-321d-4371-8e91-548862ef65ab)
     
 Instruction 2     :	sd	ra,8(sp)
-		
+    ![image](https://github.com/user-attachments/assets/f0c8655d-6b22-4c9c-8e43-8dad8aba79aa)
+	
 Instruction 3	    : li	a2,15
-		
+		![Screenshot 2025-04-05 224520](https://github.com/user-attachments/assets/5f155c5b-1e4f-4beb-b00f-220a7dbc97f0)
+
 Instruction 4	    : lui	a0,0x21
-		
+		![Screenshot 2025-04-05 224539](https://github.com/user-attachments/assets/7c23bf27-6295-4453-abb0-4137ec475ae1)
+
 Instruction 5	    : ld	ra,8(sp)
-				
+		![Screenshot 2025-04-05 224554](https://github.com/user-attachments/assets/e3addf08-eb07-4d1a-b3a9-f3c45fad6479)
+		
 Instruction 6	    : mv	a1,a0
-		
+		![Screenshot 2025-04-05 224608](https://github.com/user-attachments/assets/2444f236-74c0-4034-8712-f41a6558c5c1)
+
 Instruction 7	    : j 12df8
-		
+		![Screenshot 2025-04-05 224622](https://github.com/user-attachments/assets/33b64723-0f7c-4e1a-834e-c4ace4a4ee95)
+
 Instruction 8	    : lw  a5,80(s0)
-		
+		![Screenshot 2025-04-05 224635](https://github.com/user-attachments/assets/3186ccf1-3bdc-43a5-a2f7-e78e7ab1874f)
+
 Instruction 9	    : lh a3,16(a4)
-		
+		![Screenshot 2025-04-05 224650](https://github.com/user-attachments/assets/1a05da89-1384-4a8d-8c02-ff975a0360f8)
+
 Instruction 10	  : slli a5,a3,0x30
-		
+		![Screenshot 2025-04-05 224704](https://github.com/user-attachments/assets/87c951cb-16f1-4c51-bae8-289cf662c51f)
+
 Instruction 11	  : srli  a5,a5,0x30
-			
+			![Screenshot 2025-04-05 224720](https://github.com/user-attachments/assets/92d4f6a5-a3f8-4e47-a4c8-378c706c773f)
+
 Instruction 12	  : and  a3,a2,a3
-				
+				![Screenshot 2025-04-05 224734](https://github.com/user-attachments/assets/d2244559-13ae-434d-900c-efa378cd6f7c)
+
 Instruction 13	  : sw  a5,-28(s0)
-			
+			![Screenshot 2025-04-05 224747](https://github.com/user-attachments/assets/75284f02-1cac-4923-b5ff-6874ecaf5a40)
+
 Instruction 14	  : addiw a5,a5,1
-			
+			![Screenshot 2025-04-05 224800](https://github.com/user-attachments/assets/6b4d0df5-852c-49cb-b578-396340189094)
+
 Instruction 15	  : addw  a5,a4,a5	
 
-![image](https://github.com/user-attachments/assets/c8017abf-8674-4f6e-88d6-ed95849a7218)
+    ![Screenshot 2025-04-05 224809](https://github.com/user-attachments/assets/d388a772-4833-4202-b9c1-521e14a7059b)
 
-    
  ## Task 4: Functional Simulation of RISC-V Core 
 
     Objective: Perform a functional simulation of the given RISC-V Core Verilog netlist and testbench. 
