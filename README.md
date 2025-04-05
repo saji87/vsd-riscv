@@ -37,7 +37,43 @@
     3. From the riscv-objdump of your application code, identify 15 unique RISC-V instructions. 
     4. For those 15 instructions, determine the exact 32-bit instruction code in their respective instruction type formats. 
     5. Upload the 32-bit instruction patterns to your GitHub repository. 
+Instruction 1   : addi sp, sp, -16
+    OPCODE      :
+    Registers   : sp = 
+    Immediate   : -16 = 
+    ![Screenshot 2025-04-05 223656](https://github.com/user-attachments/assets/0c616b86-321d-4371-8e91-548862ef65ab)
+    
+Instruction 2     :	sd	ra,8(sp)
+		
+Instruction 3	    : li	a2,15
+		
+Instruction 4	    : lui	a0,0x21
+		
+Instruction 5	    : ld	ra,8(sp)
+				
+Instruction 6	    : mv	a1,a0
+		
+Instruction 7	    : j 12df8
+		
+Instruction 8	    : lw  a5,80(s0)
+		
+Instruction 9	    : lh a3,16(a4)
+		
+Instruction 10	  : slli a5,a3,0x30
+		
+Instruction 11	  : srli  a5,a5,0x30
+			
+Instruction 12	  : and  a3,a2,a3
+				
+Instruction 13	  : sw  a5,-28(s0)
+			
+Instruction 14	  : addiw a5,a5,1
+			
+Instruction 15	  : addw  a5,a4,a5	
 
+![image](https://github.com/user-attachments/assets/c8017abf-8674-4f6e-88d6-ed95849a7218)
+
+    
  ## Task 4: Functional Simulation of RISC-V Core 
 
     Objective: Perform a functional simulation of the given RISC-V Core Verilog netlist and testbench. 
