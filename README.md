@@ -38,10 +38,8 @@
     4. For those 15 instructions, determine the exact 32-bit instruction code in their respective instruction type formats. 
     5. Upload the 32-bit instruction patterns to your GitHub repository. 
     
-Instruction 1   : addi sp, sp, -16
-    OPCODE      :
-    Registers   : sp = 
-    Immediate   : -16 = 
+Instruction 1   : addi sp, sp, -16 <br\>
+   
     ![Screenshot 2025-04-05 223656](https://github.com/user-attachments/assets/0c616b86-321d-4371-8e91-548862ef65ab)
     
 Instruction 2     :	sd	ra,8(sp)
