@@ -105,6 +105,41 @@ Instruction 15	  : addw  a5,a4,a5
         Update your GitHub repository.
         Upload the waveform snapshots and simulation results to your GitHub.
         Include a brief description of your work in the repository.
-    Reference Resources:
-      Official GitHub repository: RISC-V Core GitHub Repo.
-      Use the reference document for additional guidance.
+ 
+
+    Assembly Code : 
+
+    ![image](https://github.com/user-attachments/assets/d8b74cbe-12d8-41c3-95dc-3ab4f9769040)
+
+	Instruction 1 : add r6,r1,r2.(i1)  ---> 1+2 =3
+     ![image](https://github.com/user-attachments/assets/b63077b8-8cb0-4c0b-95e1-60f3c8e6e3c7)
+	Instruction 2:  sub r7,r1,r2.(i2)
+ ![image](https://github.com/user-attachments/assets/85a67340-1745-418c-b85e-8a810486e316)
+
+	Instruction 3:  and r8,r1,r3.(i3)
+ ![image](https://github.com/user-attachments/assets/e6641b77-8a86-4f1d-a63f-bdf97a7c3a26)
+
+	Instruction 4:  or r9,r2,r5.(i4)
+ ![image](https://github.com/user-attachments/assets/b12cdcc2-11f1-4060-bd27-9a4356666610)
+
+	Instruction 5:  xor r10,r1,r4.(i5)
+ ![image](https://github.com/user-attachments/assets/5c80275e-7472-4d9b-aa82-49d24ab25006)
+
+	Instruction 6:  slt r11,r2,r4.(i6)
+ ![image](https://github.com/user-attachments/assets/b937067f-f18f-4039-ac28-206d00ffb048)
+
+	Instruction 7:  addi r12,r4,5.(i7)
+ ![image](https://github.com/user-attachments/assets/17caa61f-0a35-4364-934e-c1e285ed2473)
+
+	Instruction 8:  sw r3,r1,2.(i8)
+ ![image](https://github.com/user-attachments/assets/a8e96a85-6031-4de4-b835-175d487d816b)
+
+	Instruction 9:  lw r13,r1,2.(i9)
+ ![image](https://github.com/user-attachments/assets/6312726c-8e3e-4de7-a2f6-3888f1f96439)
+
+	Instruction 10:  beq r0,r0,15.(i10)
+ ![image](https://github.com/user-attachments/assets/5b235e79-e4c6-4464-b199-ead5fc46a79f)
+
+	Instruction 11:  add r14,r2,r2.(i11)
+ ![image](https://github.com/user-attachments/assets/9d99dd25-7784-4e0f-b042-4b0042068bba)
+
