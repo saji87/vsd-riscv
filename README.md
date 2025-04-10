@@ -112,7 +112,7 @@ Instruction 15	  : addw  a5,a4,a5
     
 	Instruction 1 : add r6,r1,r2.(i1)  ---> 1+2 =3 : HEX 02208300
 
-    ![Screenshot 2025-04-10 112045](https://github.com/user-attachments/assets/5c18e33f-29d7-4d92-9aa9-73dec25ff6f3)
+    ![image](https://github.com/user-attachments/assets/5c18e33f-29d7-4d92-9aa9-73dec25ff6f3)
 
 	Instruction 2:  sub r7,r1,r2.(i2)  : HEX 02209380
  ![image](https://github.com/user-attachments/assets/85a67340-1745-418c-b85e-8a810486e316)
