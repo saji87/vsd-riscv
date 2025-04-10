@@ -109,10 +109,11 @@ Instruction 15	  : addw  a5,a4,a5
 
     Assembly Code : 
 
-    ![image](https://github.com/user-attachments/assets/d8b74cbe-12d8-41c3-95dc-3ab4f9769040)
-
+    
 	Instruction 1 : add r6,r1,r2.(i1)  ---> 1+2 =3 : HEX 02208300
-     ![image](https://github.com/user-attachments/assets/b63077b8-8cb0-4c0b-95e1-60f3c8e6e3c7)
+
+    ![Screenshot 2025-04-10 112045](https://github.com/user-attachments/assets/5c18e33f-29d7-4d92-9aa9-73dec25ff6f3)
+
 	Instruction 2:  sub r7,r1,r2.(i2)  : HEX 02209380
  ![image](https://github.com/user-attachments/assets/85a67340-1745-418c-b85e-8a810486e316)
 
