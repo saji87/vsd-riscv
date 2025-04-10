@@ -118,7 +118,8 @@ Instruction 15	  : addw  a5,a4,a5
  ![image](https://github.com/user-attachments/assets/85a67340-1745-418c-b85e-8a810486e316)
 
 	Instruction 3:  and r8,r1,r3.(i3) : HEX 0230a400
- ![image](https://github.com/user-attachments/assets/e6641b77-8a86-4f1d-a63f-bdf97a7c3a26)
+ ![image](https://github.com/user-attachments/assets/475a8e80-0d00-4d9d-92c4-33e1ff6d550e)
+
 
 	Instruction 4:  or r9,r2,r5.(i4) : HEX 02513480
  ![image](https://github.com/user-attachments/assets/b12cdcc2-11f1-4060-bd27-9a4356666610)
