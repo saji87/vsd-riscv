@@ -38,50 +38,50 @@
     4. For those 15 instructions, determine the exact 32-bit instruction code in their respective instruction type formats. 
     5. Upload the 32-bit instruction patterns to your GitHub repository. 
     
-Instruction 1   : addi sp, sp, -16 <br\>
+Instruction 1   : addi sp, sp, -16  
    
     ![Screenshot 2025-04-05 223656](https://github.com/user-attachments/assets/0c616b86-321d-4371-8e91-548862ef65ab)
     
-Instruction 2     :	sd	ra,8(sp)
+Instruction 2     :	sd	ra,8(sp) 
     ![image](https://github.com/user-attachments/assets/f0c8655d-6b22-4c9c-8e43-8dad8aba79aa)
 	
-Instruction 3	    : li	a2,15
+Instruction 3	    : li	a2,15 
 	![Screenshot 2025-04-05 224520](https://github.com/user-attachments/assets/5f155c5b-1e4f-4beb-b00f-220a7dbc97f0)
 
-Instruction 4	    : lui	a0,0x21
+Instruction 4	    : lui	a0,0x21 
 	![Screenshot 2025-04-05 224539](https://github.com/user-attachments/assets/7c23bf27-6295-4453-abb0-4137ec475ae1)
 
-Instruction 5	    : ld	ra,8(sp)
+Instruction 5	    : ld	ra,8(sp) 
 	![Screenshot 2025-04-05 224554](https://github.com/user-attachments/assets/e3addf08-eb07-4d1a-b3a9-f3c45fad6479)
 		
-Instruction 6	    : mv	a1,a0
+Instruction 6	    : mv	a1,a0 
 	![Screenshot 2025-04-05 224608](https://github.com/user-attachments/assets/2444f236-74c0-4034-8712-f41a6558c5c1)
 
-Instruction 7	    : j 12df8
+Instruction 7	    : j 12df8 
 	![Screenshot 2025-04-05 224622](https://github.com/user-attachments/assets/33b64723-0f7c-4e1a-834e-c4ace4a4ee95)
 
-Instruction 8	    : lw  a5,80(s0)
+Instruction 8	    : lw  a5,80(s0) 
 	![Screenshot 2025-04-05 224635](https://github.com/user-attachments/assets/3186ccf1-3bdc-43a5-a2f7-e78e7ab1874f)
 
-Instruction 9	    : lh a3,16(a4)
+Instruction 9	    : lh a3,16(a4) 
 	![Screenshot 2025-04-05 224650](https://github.com/user-attachments/assets/1a05da89-1384-4a8d-8c02-ff975a0360f8)
 
-Instruction 10	  : slli a5,a3,0x30
+Instruction 10	  : slli a5,a3,0x30 
 	![Screenshot 2025-04-05 224704](https://github.com/user-attachments/assets/87c951cb-16f1-4c51-bae8-289cf662c51f)
 
 Instruction 11	  : srli  a5,a5,0x30
 	![Screenshot 2025-04-05 224720](https://github.com/user-attachments/assets/92d4f6a5-a3f8-4e47-a4c8-378c706c773f)
 
-Instruction 12	  : and  a3,a2,a3
+Instruction 12	  : and  a3,a2,a3 
 	![Screenshot 2025-04-05 224734](https://github.com/user-attachments/assets/d2244559-13ae-434d-900c-efa378cd6f7c)
 
-Instruction 13	  : sw  a5,-28(s0)
+Instruction 13	  : sw  a5,-28(s0) 
 	![Screenshot 2025-04-05 224747](https://github.com/user-attachments/assets/75284f02-1cac-4923-b5ff-6874ecaf5a40)
 
-Instruction 14	  : addiw a5,a5,1
+Instruction 14	  : addiw a5,a5,1 
 	![Screenshot 2025-04-05 224800](https://github.com/user-attachments/assets/6b4d0df5-852c-49cb-b578-396340189094)
 
-Instruction 15	  : addw  a5,a4,a5	
+Instruction 15	  : addw  a5,a4,a5
 
    ![Screenshot 2025-04-05 224809](https://github.com/user-attachments/assets/4f5ef5b8-9ecd-433b-8da8-850f0d155899)
 
@@ -111,35 +111,35 @@ Instruction 15	  : addw  a5,a4,a5
 
     ![image](https://github.com/user-attachments/assets/d8b74cbe-12d8-41c3-95dc-3ab4f9769040)
 
-	Instruction 1 : add r6,r1,r2.(i1)  ---> 1+2 =3
+	Instruction 1 : add r6,r1,r2.(i1)  ---> 1+2 =3 : HEX 
      ![image](https://github.com/user-attachments/assets/b63077b8-8cb0-4c0b-95e1-60f3c8e6e3c7)
-	Instruction 2:  sub r7,r1,r2.(i2)
+	Instruction 2:  sub r7,r1,r2.(i2)  : HEX 
  ![image](https://github.com/user-attachments/assets/85a67340-1745-418c-b85e-8a810486e316)
 
-	Instruction 3:  and r8,r1,r3.(i3)
+	Instruction 3:  and r8,r1,r3.(i3) : HEX 
  ![image](https://github.com/user-attachments/assets/e6641b77-8a86-4f1d-a63f-bdf97a7c3a26)
 
-	Instruction 4:  or r9,r2,r5.(i4)
+	Instruction 4:  or r9,r2,r5.(i4) : HEX 
  ![image](https://github.com/user-attachments/assets/b12cdcc2-11f1-4060-bd27-9a4356666610)
 
-	Instruction 5:  xor r10,r1,r4.(i5)
+	Instruction 5:  xor r10,r1,r4.(i5) : HEX 
  ![image](https://github.com/user-attachments/assets/5c80275e-7472-4d9b-aa82-49d24ab25006)
 
-	Instruction 6:  slt r11,r2,r4.(i6)
+	Instruction 6:  slt r11,r2,r4.(i6) : HEX 
  ![image](https://github.com/user-attachments/assets/b937067f-f18f-4039-ac28-206d00ffb048)
 
-	Instruction 7:  addi r12,r4,5.(i7)
+	Instruction 7:  addi r12,r4,5.(i7) : HEX 
  ![image](https://github.com/user-attachments/assets/17caa61f-0a35-4364-934e-c1e285ed2473)
 
-	Instruction 8:  sw r3,r1,2.(i8)
+	Instruction 8:  sw r3,r1,2.(i8)  : HEX 
  ![image](https://github.com/user-attachments/assets/a8e96a85-6031-4de4-b835-175d487d816b)
 
-	Instruction 9:  lw r13,r1,2.(i9)
+	Instruction 9:  lw r13,r1,2.(i9)  : HEX 
  ![image](https://github.com/user-attachments/assets/6312726c-8e3e-4de7-a2f6-3888f1f96439)
 
-	Instruction 10:  beq r0,r0,15.(i10)
+	Instruction 10:  beq r0,r0,15.(i10)  : HEX 
  ![image](https://github.com/user-attachments/assets/5b235e79-e4c6-4464-b199-ead5fc46a79f)
 
-	Instruction 11:  add r14,r2,r2.(i11)
+	Instruction 11:  add r14,r2,r2.(i11)  : HEX 
  ![image](https://github.com/user-attachments/assets/9d99dd25-7784-4e0f-b042-4b0042068bba)
 
