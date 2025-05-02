@@ -40,7 +40,8 @@
     
 Instruction 1   : addi sp, sp, -16  
    
-![Screenshot 2025-04-10 112045](https://github.com/user-attachments/assets/a6a914b3-ea53-49ac-9ec4-45e7696adf0d)
+![image](https://github.com/user-attachments/assets/8297e761-7d34-4ac8-bd10-ae1a04ab89ab)
+
     
 Instruction 2     :	sd	ra,8(sp) 
     ![image](https://github.com/user-attachments/assets/f0c8655d-6b22-4c9c-8e43-8dad8aba79aa)
