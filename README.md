@@ -156,10 +156,14 @@ Ultrasonic Range meter is designed in VSD squadron with 0.95" I2C OLED to displa
 
 The I2C communication is done through the GPIO pins. The following table shows the connection between the VSDsquadron Mini and the I2C devices.
 
-VSDsquadron Mini	I2C device
+VSDsquadron Mini	I2C device 
+
 	PC1(SDA)	SDA
+ 
 	PC2(SCL)	SCL
+ 
 	GND		GND
+ 
 	3.3V		3.3V	
  
  # Connection
