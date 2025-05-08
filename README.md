@@ -157,7 +157,13 @@ Ultrasonic Object Detection device is designed in VSD squadron with LED to displ
 Installation and WCH Drivers : https://github.com/vsdip/vsdsquadron_pio/blob/main/install.md
 Link to Platform_IO FIles : https://github.com/vsdip/vsdsquadron_pio.git
 
-Complete Driver Installation & Board file installation in VS Code.
+Complete Driver Installation & Board file installation in VS Code. 
+
+The project aims to achieve the equivalent of a RADAR but with Ultrasound sensor. The sensor transmits and detects the Ultrasound Signal. Once the time difference is measured, the distance can be calculated based on the speed of the transmssion of signal.
+
+The distance is calibrated as the blinking frequency of the LED. The smaller the blinking rate, the farther apart the object is. If it is nearby, the blinking frequency is higher.
+
+The Connections are as follows for connectivity to the Sensor.
 
 | PIN:VSD    	|  Sensor Pins |
 | ------------- | ------------- |
