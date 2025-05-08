@@ -150,26 +150,26 @@ Instruction 15	  : addw  a5,a4,a5
 ## TASK 5
 # Overview
 
-Ultrasonic Range meter is designed in VSD squadron with 0.95" I2C OLED to display the range
+Ultrasonic Object Detection device is designed in VSD squadron with LED to display the detection.
 
 # Hardware Connection
 
-The I2C communication is done through the GPIO pins. The following table shows the connection between the VSDsquadron Mini and the I2C devices.
+Installation and WCH Drivers : https://github.com/vsdip/vsdsquadron_pio/blob/main/install.md
+Link to Platform_IO FIles : https://github.com/vsdip/vsdsquadron_pio.git
 
+Complete Driver Installation & Board file installation in VS Code.
 
-	VSDsquadron Mini	I2C device 
+| PIN:VSD    	|  Sensor Pins |
+| ------------- | ------------- |
+| VCC  		| 3.3 V 	|
+| Trig          | PC1		|
+| Echo		| PC0		|
+| GND		| GND		|
 
-	PC1(SDA)	SDA
+# Connection
  
-	PC2(SCL)	SCL
- 
-	GND		GND
- 
-	3.3V		3.3V	
- 
- # Connection
+![image](https://github.com/user-attachments/assets/cbc8ccef-6a25-4bcb-977c-453a14a9827a)
 
- ![image](https://github.com/user-attachments/assets/22dbc61b-5348-4023-afe7-4a5224740f6d)
 
 
 
